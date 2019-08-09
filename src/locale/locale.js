@@ -1,9 +1,12 @@
 /* global window */
-import en from './en';
+import en from './en'
+import zhCN from './zh-cn'
 
-let $lang = 'en';
+// let $lang = 'en';
+let $lang = 'zh-cn';
 const $messages = {
   en,
+  'zh-cn': zhCN
 };
 
 function translate(key, messages) {
